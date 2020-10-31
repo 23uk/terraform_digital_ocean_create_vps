@@ -1,4 +1,10 @@
-variable "do_token" {}
-variable "pub_key_my" {}
-variable "pub_key_rebrain" {}
+variable "do_token" {
+type=string
+}
+variable "pub_key_my" {
+type=string
+}
+variable "pub_key_rebrain" {
+type=string
+}
 
