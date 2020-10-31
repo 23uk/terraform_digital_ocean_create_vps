@@ -1,4 +1,4 @@
 variable "do_token" {}
-variable "pub_key" {}
-variable "pvt_key" {}
+variable "pub_key_my" {}
+variable "pub_key_rebrain" {}
 
