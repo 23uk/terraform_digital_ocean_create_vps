@@ -1,12 +1,11 @@
 data "digitalocean_ssh_key" "devops" {
-#  name = "REBRAIN.SSH.PUB.KEY"
-  name = "23uk_at_tut_by"
+  name = "REBRAIN.SSH.PUB.KEY"
+#  name = "23uk_at_tut_by"
 }
 
 resource "digitalocean_ssh_key" "my_pub_key" {
   name       = "my_pub_key"
-  public_key = var.pub_key_rebrain
-  
+  public_key = var.pub_key_my
 }
 
 resource "digitalocean_droplet" "devops" {
